@@ -1,0 +1,205 @@
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* text style */
+
+h1, #minute {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 10px;
+  color: #8E8E93;
+}
+
+#subtitle-red {
+  font-size: 14px;
+  color: #D0021B;
+  font-weight: 320;
+}
+
+#subtitle {
+  color: #504C51;
+  font-weight: 350;
+}
+
+/* Main Content */
+
+.container {
+  overflow-y:scroll;
+  background-color: #EAEAF9;
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Status Bar */
+
+#status-bar {
+  background-color: white;
+  opacity: 0.8;
+  padding: 5px 5px;
+  font-size: 12px;
+  height: 20px;
+  width: 375px;
+  text-align: center;
+}
+
+#time {
+  margin:0 80px;
+  font-weight: 550;
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+  background-color: white;
+  opacity: 0.8;
+  height: 44px;
+  width: 375px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#arrow-left {
+  display:inline-block;
+}
+
+#title {
+  font-weight: 550;
+  width: 170px;
+  display:inline-block;
+  margin: 0 50px 0 20px
+}
+
+#icon-right {
+  display:inline-block;
+}
+
+/* List View */
+
+/* Title */
+
+.cell-title {
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4A4A4A;
+}
+
+#green-title {
+  background-color: #9DC89D;
+}
+
+#red-title {
+  background-color: #F9B3B3;
+}
+
+/* Table cells */
+
+.cell {
+  background-color: white;
+  height: 60px;
+}
+
+.separator {
+  height: 0px;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  float: right;
+  width: 286px;
+}
+
+/* Bus Route Logo */
+
+.bus-route-logo {
+  width: 70px;
+  height: 60px;
+  float: left;
+}
+
+.square {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  line-height: 42px;
+}
+
+#purple {
+  background-color: #4347A3;
+}
+
+#green {
+  background-color: #298628;
+}
+
+#red {
+  background-color: #D0021B;
+}
+
+/* Text content */
+
+.route-information {
+  display: inline-block;
+  width: 185px;
+  height: 50px;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.arrival-time {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: right;
+}
+
+.arrow-right {
+  display: inline-block;
+  height: 60px;
+  width: 10px;
+  margin-right: 16px;
+  float: right;
+  color: #C7C7CC;
+  line-height: 60px;
+}
+
+/* Tab Bar */
+
+.tab-bar {
+  width: 375px;
+  height: 52px;
+  background-color: rgba(248,248,248,82);
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.tab-bar-icons {
+  display: inline-block;
+  width: 48px;
+  margin: 5px 20px;
+}

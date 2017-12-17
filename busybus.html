@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Busy Bus</title>
+    <link rel="stylesheet" href="css/ericmeyer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div id="status-bar">
+          <i class="fas fa-signal"></i> Busybus
+          <i class="fas fa-wifi"></i>
+        <span id="time">9:41 AM</span>
+          <i class="fab fa-bluetooth-b"></i> 100%
+          <i class="fas fa-battery-full"></i>
+      </div>
+      <nav class="nav-bar">
+          <span id="arrow-left">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i> Bus Stop
+          </span>
+          <span id="title">
+            <h1>Washington & State</h1>
+          </span>
+          <span id="icon-right">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+          </span>
+      </nav>
+      <section class="list">
+        <div class="cell-title">
+          <h3>Eastbound</h3>
+        </div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="purple">
+              <h1>124</h1>
+            </div>
+          </div>
+            <div class="route-information">
+                <h1>Navy Pier</h1>
+                <h2 id="subtitle">Every 10 minutes</h2>
+            </div>
+            <div class="arrival-time">
+              <h2><span id="minute">5 </span>mins</h2>
+              <h2 id="subtitle">9:46 am</h2>
+            </div>
+            <div class="arrow-right">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class= "separator"></div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="purple">
+              <h1>60</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>Randolph/Harbor Dr</h1>
+              <h2 id="subtitle">Every 20 minutes</h2>
+          </div>
+          <div class="arrival-time">
+            <h2><span id="minute">10 </span>mins</h2>
+            <h2 id="subtitle">9:51 am</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="cell-title">
+          <h3>Northbound</h3>
+        </div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="purple">
+              <h1>151</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>Devon/Clark</h1>
+              <h2 id="subtitle">Every 16 minutes</h2>
+          </div>
+          <div class="arrival-time">
+            <h2><span id="minute">8 </span>mins</h2>
+            <h2 id="subtitle">9:49 am</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="cell-title">
+          <h3>Southbound</h3>
+        </div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="purple">
+              <h1>124</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>Navy Pier</h1>
+              <h2 id="subtitle">Every 10 minutes</h2>
+          </div>
+          <div class="arrival-time">
+            <h2><span id="minute">7 </span>mins</h2>
+            <h2 id="subtitle">9:48 am</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class= "separator"></div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="purple">
+              <h1>J14</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>103rd/Stony Island</h1>
+              <h2 id="subtitle">Every 15 minutes</h2>
+          </div>
+          <div class="arrival-time">
+            <h2><span id="minute">12 </span>mins</h2>
+            <h2 id="subtitle">9:53 am</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="cell-title" id="green-title">
+          <h3>Reroute</h3>
+        </div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="green">
+              <h1>6X</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>Jackson Park Express</h1>
+              <h2 id="subtitle-red">Not available</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="cell-title" id="red-title">
+          <h3>Out of Service</h3>
+        </div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="red">
+              <h1>4</h1>
+            </div>
+          </div>
+          <div class="route-information">
+              <h1>Cottage Grove</h1>
+              <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10AM</div>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class= "separator"></div>
+          <div class="cell">
+            <div class="bus-route-logo">
+              <div class="square" id="red">
+                <h1>20</h1>
+              </div>
+            </div>
+            <div class="route-information">
+                <h1>Madison</h1>
+                <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10AM</div>
+            </div>
+            <div class="arrow-right">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class= "separator"></div>
+            <div class="cell">
+              <div class="bus-route-logo">
+                <div class="square" id="red">
+                  <h1>157</h1>
+                </div>
+              </div>
+              <div class="route-information">
+                  <h1>Streeterville/Tayor</h1>
+                  <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 6:00AM</div>
+              </div>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            <div/>
+      </section>
+      <div class="tab-bar">
+        <span class='tab-bar-icons'>
+          <img src="images/favorite.png">
+          <p>Favorite</p>
+        </span>
+        <span class='tab-bar-icons'>
+          <img src="images/home.png">
+          <p>Home</p>
+        </span>
+        <span class='tab-bar-icons'>
+          <img src="images/search.png">
+          <p>Search</p>
+        </span>
+        <span class='tab-bar-icons'>
+          <img src="images/menu.png">
+          <p>Menu</p>
+        </span>
+      </div>
+
+    </section>
+
+
+  </body>
+</html>
