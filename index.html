@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Busy Bus</title>
     <link rel="stylesheet" href="css/ericmeyer.css">
@@ -9,26 +10,20 @@
   </head>
   <body>
     <section class="container">
-      <div id="status-bar">
-          <i class="fas fa-signal"></i> Busybus
-          <i class="fas fa-wifi"></i>
-        <span id="time">9:41 AM</span>
-          <i class="fab fa-bluetooth-b"></i> 100%
-          <i class="fas fa-battery-full"></i>
-      </div>
-      <nav class="nav-bar">
+      <nav class="header">
+        <div id="status-bar">
+          <img src="images/status_bar.png" width="364" height="12">
+        </div>
           <span id="arrow-left">
             <i class="fa fa-chevron-left" aria-hidden="true"></i> Bus Stop
           </span>
-          <span id="title">
-            <h1>Washington & State</h1>
-          </span>
+          <span id="title">Washington & State</span>
           <span id="icon-right">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
           </span>
       </nav>
-      <section class="list">
-        <div class="cell-title">
+      <div class="list">
+        <div class="cell-title" id="purple-title">
           <h3>Eastbound</h3>
         </div>
         <div class="cell">
@@ -37,19 +32,19 @@
               <h1>124</h1>
             </div>
           </div>
-            <div class="route-information">
-                <h1>Navy Pier</h1>
-                <h2 id="subtitle">Every 10 minutes</h2>
-            </div>
-            <div class="arrival-time">
-              <h2><span id="minute">5 </span>mins</h2>
-              <h2 id="subtitle">9:46 am</h2>
-            </div>
-            <div class="arrow-right">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </div>
+          <div class="route-information">
+            <h1>Navy Pier</h1>
+            <h2 id="subtitle">Every 10 minutes</h2>
+          </div>
+          <div class="arrival-time">
+            <h2><span id="minute">5 </span>mins</h2>
+            <h2 id="subtitle">9:46 am</h2>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
         </div>
-        <div class= "separator"></div>
+        <div class="separator"></div>
         <div class="cell">
           <div class="bus-route-logo">
             <div class="square" id="purple">
@@ -68,7 +63,7 @@
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="cell-title">
+        <div class="cell-title" id="purple-title">
           <h3>Northbound</h3>
         </div>
         <div class="cell">
@@ -89,7 +84,7 @@
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="cell-title">
+        <div class="cell-title" id="purple-title">
           <h3>Southbound</h3>
         </div>
         <div class="cell">
@@ -164,57 +159,54 @@
           </div>
         </div>
         <div class= "separator"></div>
-          <div class="cell">
-            <div class="bus-route-logo">
-              <div class="square" id="red">
-                <h1>20</h1>
-              </div>
-            </div>
-            <div class="route-information">
-                <h1>Madison</h1>
-                <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10AM</div>
-            </div>
-            <div class="arrow-right">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="red">
+              <h1>20</h1>
             </div>
           </div>
-          <div class= "separator"></div>
-            <div class="cell">
-              <div class="bus-route-logo">
-                <div class="square" id="red">
-                  <h1>157</h1>
-                </div>
-              </div>
-              <div class="route-information">
-                  <h1>Streeterville/Tayor</h1>
-                  <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 6:00AM</div>
-              </div>
-              <div class="arrow-right">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              </div>
-            <div/>
-      </section>
+          <div class="route-information">
+            <h1>Madison</h1>
+            <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10AM</div>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class= "separator"></div>
+        <div class="cell">
+          <div class="bus-route-logo">
+            <div class="square" id="red">
+              <h1>157</h1>
+            </div>
+          </div>
+          <div class="route-information">
+            <h1>Streeterville/Tayor</h1>
+            <div id="subtitle-red"><i class="fas fa-exclamation fa-xs"></i> Resumes at 6:00AM</div>
+          </div>
+          <div class="arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
       <div class="tab-bar">
         <span class='tab-bar-icons'>
-          <img src="images/favorite.png">
+          <img src="images/favorite.png" width="28" height="27">
           <p>Favorite</p>
         </span>
         <span class='tab-bar-icons'>
-          <img src="images/home.png">
+          <img src="images/home.png" width="25" height="23">
           <p>Home</p>
         </span>
         <span class='tab-bar-icons'>
-          <img src="images/search.png">
+          <img src="images/search.png" width="23" height="23">
           <p>Search</p>
         </span>
         <span class='tab-bar-icons'>
-          <img src="images/menu.png">
+          <img src="images/menu.png" width="24" height="17">
           <p>Menu</p>
         </span>
       </div>
-
     </section>
-
-
   </body>
 </html>
