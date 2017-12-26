@@ -8,7 +8,7 @@ body {
 
 /* text style */
 
-h1, #minute {
+h1, .minute {
   font-size: 17px;
 }
 
@@ -25,15 +25,12 @@ p {
   color: #8E8E93;
 }
 
-#subtitle-red {
-  font-size: 14px;
-  color: #D0021B;
-  font-weight: 320;
+.subtitle {
+  color: #504C51;
 }
 
-#subtitle {
-  color: #504C51;
-  font-weight: 350;
+.red-text {
+  color: #D0021B;
 }
 
 /* Main Content */
@@ -73,7 +70,7 @@ p {
   font-size: 17px;
 }
 
-#title {
+#bar-title {
   font-size: 17px;
   font-weight: 550;
   width: 80px;
@@ -96,7 +93,7 @@ p {
 
 /* Title */
 
-.cell-title {
+.title {
   padding-left: 15px;
   height: 30px;
   line-height: 30px;
@@ -104,15 +101,15 @@ p {
   color: #4A4A4A;
 }
 
-#purple-title {
+.purple-cell {
   background-color: #EAEAF9;
 }
 
-#green-title {
+.green-cell {
   background-color: #9DC89D;
 }
 
-#red-title {
+.red-cell {
   background-color: #F9B3B3;
 }
 
@@ -148,15 +145,15 @@ p {
   text-align: center;
 }
 
-#purple {
+.purple {
   background-color: #4347A3;
 }
 
-#green {
+.green {
   background-color: #298628;
 }
 
-#red {
+.red {
   background-color: #D0021B;
 }
 
