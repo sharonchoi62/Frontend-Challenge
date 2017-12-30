@@ -2,11 +2,11 @@
   box-sizing:border-box;
 }
 
+/* text style */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
-/* text style */
 
 h1, .minute {
   font-size: 17px;
@@ -20,7 +20,7 @@ h3 {
   font-size: 12px;
 }
 
-p {
+.tab-bar {
   font-size: 10px;
   color: #8E8E93;
 }
