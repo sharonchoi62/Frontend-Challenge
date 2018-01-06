@@ -8,7 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-h1, .minute {
+h1 {
   font-size: 17px;
 }
 
@@ -20,9 +20,10 @@ h3 {
   font-size: 12px;
 }
 
-.tab-bar {
-  font-size: 10px;
-  color: #8E8E93;
+.minute {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.05em;
 }
 
 .subtitle {
@@ -39,62 +40,69 @@ h3 {
   width: 375px;
   height: 667px;
   margin: auto;
+  background-color: #E0E0F7;
 }
 
 /* Header */
 
-.header {
-  background-color: white;
-  width: 375px;
+header {
+  top:0;
+  background-color: #F8F8F8;
   height: 64px;
-  padding: 32px 5px 0 5px;
-  position: fixed;
-  top: 0;
+  opacity: 0.82;
+  box-shadow: 0 0.5px #B2B2B2;
 }
 
 /* Status Bar */
 
 #status-bar {
-  width: 364px;
   margin: 0 auto;
-  position: fixed;
-  top: 0;
+  display: block;
 }
 
 /* Navigation Bar */
 
+nav {
+  width: 100%;
+  height: 52px;
+  padding: 22px 5px 0 5px;
+  position: fixed;
+}
+
 #arrow-left {
   color: #007AFF;
-  width: 100px;
-  float: left;
   font-size: 17px;
+  width: 13%;
+  float: left;
 }
 
 #bar-title {
   font-size: 17px;
   font-weight: 550;
-  width: 80px;
-  margin-left: 15px;
+  width: 20%;
+  float: left;
 }
 
 #icon-right {
   color: #007AFF;
-  width: 20px;
-  float: right;
+  width: 35%;
+  padding-left: 4%;
+  float: left;
+
 }
 
 /* List View */
 
 .list {
   overflow-y:scroll;
-  height: 667px;
-  padding: 64px 0 52px 0;
+  height: 315px;
+  padding: 0 0 52 0;
 }
 
 /* Title */
 
 .title {
-  padding-left: 15px;
+  padding-left: 5%;
   height: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -122,7 +130,7 @@ h3 {
 
 .separator {
   height: 0px;
-  width: 286px;
+  width: 80%;
   float: right;
   border: 0.5px solid rgba(0, 0, 0, 0.25);
 }
@@ -130,7 +138,7 @@ h3 {
 /* Bus Route Logo */
 
 .bus-route-logo {
-  width: 70px;
+  width: 20%;
   height: 65px;
   float: left;
 }
@@ -160,30 +168,24 @@ h3 {
 /* Text content */
 
 .route-information {
-  display: inline-block;
-  width: 185px;
+  width: 55%;
   height: 44px;
   line-height: 22px;
   margin-top: 12px;
-  margin-left: 20px;
   float: left;
 }
 
 .arrival-time {
-  display: inline-block;
-  width: 60px;
   height: 44px;
   line-height: 22px;
   margin-top: 12px;
-  margin-left: 5px;
   text-align: right;
+  float: left;
 }
 
 .arrow-right {
-  display: inline-block;
   height: 64px;
-  width: 10px;
-  margin-right: 12px;
+  margin-right: 15px;
   float: right;
   color: #C7C7CC;
   line-height: 64px;
@@ -194,14 +196,16 @@ h3 {
 .tab-bar {
   width: 375px;
   height: 49px;
-  background-color: rgba(248,248,248,82);
-  text-align: center;
+  background-color: #FAFAFA;
+  opacity: 0.9;
   position: absolute;
+  text-align: center;
   top: 618px;
+
 }
 
 .tab-bar-icons {
-  display: inline-block;
-  width: 48px;
-  margin: 5px 20px;
+  height: 49px;
+  width: 25%;
+  float: left;
 }

@@ -9,11 +9,10 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
   </head>
   <body>
-    <section class="container">
-      <nav class="header">
-        <div id="status-bar">
-          <img src="images/status_bar.png" alt="status bar" width="364" height="12">
-        </div>
+    <div class="container">
+      <header>
+        <img id='status-bar'src="images/status_bar.png" alt="status bar" width="364" height="12">
+        <nav>
           <span id="arrow-left">
             <i class="fa fa-chevron-left" aria-hidden="true"></i> Bus Stop
           </span>
@@ -21,16 +20,18 @@
           <span id="icon-right">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
           </span>
-      </nav>
-      <div class="list">
-        <div class="title purple-cell">
+        </nav>
+      </header>
+      <section>
+        <img src="images/map.png" alt="map" width="375" height="239">
+      </section>
+      <main class="list">
+        <header class="title purple-cell">
           <h3>Eastbound</h3>
-        </div>
-        <div class="cell">
+        </header>
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square purple">
-              <h1>124</h1>
-            </div>
+            <h1 class="square purple">124</h1>
           </div>
           <div class="route-information">
             <h1>Navy Pier</h1>
@@ -43,17 +44,15 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
+        </section>
         <div class="separator"></div>
-        <div class="cell">
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square purple">
-              <h1>60</h1>
-            </div>
+            <h1 class="square purple">60</h1>
           </div>
           <div class="route-information">
-              <h1>Randolph/Harbor Dr</h1>
-              <h2 class="subtitle">Every 20 minutes</h2>
+            <h1>Randolph/Harbor Dr</h1>
+            <h2 class="subtitle">Every 20 minutes</h2>
           </div>
           <div class="arrival-time">
             <h2><span class="minute">10 </span>mins</h2>
@@ -62,19 +61,17 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
-        <div class="title purple-cell">
+        </section>
+        <header class="title purple-cell">
           <h3>Northbound</h3>
-        </div>
-        <div class="cell">
+        </header>
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square purple">
-              <h1>151</h1>
-            </div>
+            <h1 class="square purple">151</h1>
           </div>
           <div class="route-information">
-              <h1>Devon/Clark</h1>
-              <h2 class="subtitle">Every 16 minutes</h2>
+            <h1>Devon/Clark</h1>
+            <h2 class="subtitle">Every 16 minutes</h2>
           </div>
           <div class="arrival-time">
             <h2><span class="minute">8 </span>mins</h2>
@@ -83,19 +80,17 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
-        <div class="title purple-cell">
+        </section>
+        <header class="title purple-cell">
           <h3>Southbound</h3>
-        </div>
-        <div class="cell">
+        </header>
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square purple">
-              <h1>124</h1>
-            </div>
+            <h1 class="square purple">124</h1>
           </div>
           <div class="route-information">
-              <h1>Navy Pier</h1>
-              <h2 class="subtitle">Every 10 minutes</h2>
+            <h1>Navy Pier</h1>
+            <h2 class="subtitle">Every 10 minutes</h2>
           </div>
           <div class="arrival-time">
             <h2><span class="minute">7 </span>mins</h2>
@@ -104,17 +99,15 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
+        </section>
         <div class= "separator"></div>
-        <div class="cell">
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square purple">
-              <h1>J14</h1>
-            </div>
+            <h1 class="square purple">J14</h1>
           </div>
           <div class="route-information">
-              <h1>103rd/Stony Island</h1>
-              <h2 class="subtitle">Every 15 minutes</h2>
+            <h1>103rd/Stony Island</h1>
+            <h2 class="subtitle">Every 15 minutes</h2>
           </div>
           <div class="arrival-time">
             <h2><span class="minute">12 </span>mins</h2>
@@ -123,47 +116,41 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
-        <div class="title green-cell">
+        </section>
+        <header class="title green-cell">
           <h3>Reroute</h3>
-        </div>
-        <div class="cell">
+        </header>
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square green">
-              <h1>6X</h1>
-            </div>
+            <h1 class="square green">6X</h1>
           </div>
           <div class="route-information">
-              <h1>Jackson Park Express</h1>
-              <h2 class="subtitle red-text">Not available</h2>
+            <h1>Jackson Park Express</h1>
+            <h2 class="subtitle red-text">Not available</h2>
           </div>
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
-        <div class="title red-cell">
+        </section>
+        <header class="title red-cell">
           <h3>Out of Service</h3>
-        </div>
-        <div class="cell">
+        </header>
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square red">
-              <h1>4</h1>
-            </div>
+            <h1 class="square red">4</h1>
           </div>
           <div class="route-information">
-              <h1>Cottage Grove</h1>
-              <h2 class="subtitle red-text"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10 am</h2>
+            <h1>Cottage Grove</h1>
+            <h2 class="subtitle red-text"><i class="fas fa-exclamation fa-xs"></i> Resumes at 12:10 am</h2>
           </div>
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
+        </section>
         <div class= "separator"></div>
-        <div class="cell">
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square red">
-              <h1>20</h1>
-            </div>
+            <h1 class="square red">20</h1>
           </div>
           <div class="route-information">
             <h1>Madison</h1>
@@ -172,13 +159,11 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
-        </div>
+        </section>
         <div class= "separator"></div>
-        <div class="cell">
+        <section class="cell">
           <div class="bus-route-logo">
-            <div class="square red">
-              <h1>157</h1>
-            </div>
+            <h1 class="square red">157</h1>
           </div>
           <div class="route-information">
             <h1>Streeterville/Tayor</h1>
@@ -187,22 +172,22 @@
           <div class="arrow-right">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </div>
+        </section>
+      </main>
+      <footer class="tab-bar">
+        <div class='tab-bar-icons'>
+          <img src="images/favorite.png" alt="Favorite" width="48" height="48">
         </div>
-      </div>
-      <div class="tab-bar">
-        <span class='tab-bar-icons'>
-          <img src="images/favorite.png" alt="Favorite" width="28" height="27"> Favorite
-        </span>
-        <span class='tab-bar-icons'>
-          <img src="images/home.png" alt="Home" width="25" height="23"> Home
-        </span>
-        <span class='tab-bar-icons'>
-          <img src="images/search.png" alt="Search" width="23" height="23"> Search
-        </span>
-        <span class='tab-bar-icons'>
-          <img src="images/menu.png" alt="Menu" width="24" height="17"> Menu
-        </span>
-      </div>
-    </section>
+        <div class='tab-bar-icons'>
+          <img src="images/home.png" alt="Home" width="48" height="48">
+        </div>
+        <div class='tab-bar-icons'>
+          <img src="images/search.png" alt="Search" width="48" height="48">
+        </div>
+        <div class='tab-bar-icons'>
+          <img src="images/menu.png" alt="Menu" width="48" height="48">
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
