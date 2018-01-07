@@ -64,9 +64,9 @@ header {
 
 nav {
   width: 375px;
-  height: 52px;
-  padding: 22px 5px 0 5px;
-  position: fixed;
+  height: 44px;
+  padding: 15px 10px 0 10px;
+
 }
 
 #arrow-left {
@@ -86,10 +86,9 @@ nav {
 
 #icon-right {
   color: #007AFF;
-  width: 15%;
-  padding-left: 12%;
+  width: 20%;
   float: left;
-
+  text-align: right;
 }
 
 /* Map */
@@ -204,14 +203,12 @@ nav {
   height: 49px;
   background-color: #FAFAFA;
   opacity: 0.9;
-  position: absolute;
   text-align: center;
   top: 618px;
 
 }
 
 .tab-bar-icons {
-  height: 49px;
   width: 25%;
   float: left;
 }
